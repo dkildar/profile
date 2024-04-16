@@ -1,0 +1,27 @@
+.navbar-link > span {
+    display: inline-flex;
+}
+
+.navbar-link > span:first-child {
+    padding-right: 0.5rem;
+    opacity: 0;
+    transform: translateX(1rem);
+    transition: .3s;
+}
+
+.navbar-link > span:last-child {
+    padding-left: 0.5rem;
+    opacity: 0;
+    transform: translateX(-1rem);
+    transition: .3s;
+}
+
+.navbar-link:hover > span:first-child {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.navbar-link:hover > span:last-child {
+    opacity: 1;
+    transform: translateX(0);
+}
