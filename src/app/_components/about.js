@@ -6,18 +6,17 @@ export default function About() {
             <Image
                 priority
                 className="absolute -z-1 top-0 left-0 w-full object-cover h-full bg-gray-100"
-                src="/about-image.jpeg"
+                src="/about-image.jpg"
                 alt="cover"
                 width={1200}
                 height={800}
             />
-            <div className="absolute top-0 left-0 bottom-0 right-0 bg-black bg-opacity-[15%]"/>
             <div
-                className="font-[Montserrat] absolute bottom-16 left-16 z-10 text-white uppercase tracking-wide font-bold text-4xl">Introduction
+                className="font-[Montserrat] absolute top-64 left-16 z-10 text-white tracking-wide font-bold text-5xl underline">Introduction
             </div>
         </div>
-        <div className="leading-9 [&>p]:pb-4 [&>ul]:pb-4 text-lg">
-            <p>Hi, everyone!</p>
+        <div className="leading-9 px-16 [&>p]:pb-4 [&>ul]:pb-4 text-xl">
+            <p className="text-3xl">Hi, everyone!</p>
             <p>I'm passionate about product development and have over 6 years of coding experience. Throughout these
                 years, I've discovered my passions: writing highly structured code using various patterns and
                 structures, and I have extensive experience in user interface development, knowing how to attract

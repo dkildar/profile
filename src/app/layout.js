@@ -9,8 +9,8 @@ export const metadata = {
 export default function RootLayout({children}) {
     return (
         <html lang="en">
-        <body className="text-current py-16">
-        <Navbar/>
+        <body className="text-current">
+        {/*<Navbar/>*/}
         {children}
         </body>
         </html>
