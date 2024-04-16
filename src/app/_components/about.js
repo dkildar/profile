@@ -17,8 +17,8 @@ export default function About() {
         </div>
         <div className="leading-9 px-16 [&>p]:pb-4 [&>ul]:pb-4 text-xl">
             <p className="text-3xl">Hi, everyone!</p>
-            <p>I'm passionate about product development and have over 6 years of coding experience. Throughout these
-                years, I've discovered my passions: writing highly structured code using various patterns and
+            <p>I`m passionate about product development and have over 6 years of coding experience. Throughout these
+                years, I`ve discovered my passions: writing highly structured code using various patterns and
                 structures, and I have extensive experience in user interface development, knowing how to attract
                 all types of users.</p>
             {/*<p>Let me highlight my general skills and knowledge:</p>*/}
