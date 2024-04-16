@@ -7,7 +7,7 @@ export default function Header() {
             <Image
                 priority
                 className="w-full object-cover h-[600px] bg-gray-100"
-                src="/header-cover-image.jpg"
+                src="/profile/header-cover-image.jpg"
                 alt="cover"
                 width={1200}
                 height={800}

@@ -6,7 +6,7 @@ export default function About() {
             <Image
                 priority
                 className="absolute -z-1 top-0 left-0 w-full object-cover h-full bg-gray-100"
-                src="/about-image.jpg"
+                src="/profile/about-image.jpg"
                 alt="cover"
                 width={1200}
                 height={800}
